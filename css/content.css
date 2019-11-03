@@ -1,0 +1,829 @@
+.trad-main {
+        display: flex;
+        width: 100%;
+        /* height: 490px; */
+        background-color: #2a3b40;
+        color: white;
+}
+
+/* 
+.trad-main-info {
+    margin-right: 85px;
+} */
+.trad-main-img{
+    display: flex;
+    align-items: center;
+    /* height: 355px;  */
+    width: 400px;
+}
+.trad-main-img img{
+    width: 100%;
+}
+    
+
+.trad-main-info h3 {
+    font-size: 29px;
+    margin-bottom: 45px;
+    font-weight: bold;
+}
+
+.trad-main-info p {
+    font-size: 18.75px;
+    width: 555px;
+    line-height: 2em;
+}
+
+
+
+.trad-info {
+    width: 100%;
+    /* height: 376px; */
+    background-color: #d4d8d9;
+}
+
+.indian-food {
+    width: 100%;
+    height: 1206px;
+    background-image: url('../img/content/indian.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.content-container {
+    display: flex;
+
+    width: 1080px;
+    margin: 0 auto;
+
+}
+
+.indian-container {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 1260px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ind-padd{
+    padding: 70px 0;
+}
+
+
+.trad-info {
+    display: flex;
+    align-items: center;
+
+    color: #2a3b40;
+}
+
+.mrg-list {
+    padding: 100px 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.points {
+    width: 290px;
+    margin: 0 auto;
+}
+
+.points h3 {
+    font-size: 18.7px;
+    font-weight: bold;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.points p {
+    font-size: 16.62px;
+}
+
+.point {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: #2a3b40;
+    box-shadow: 1px 1px 6px;
+    display: inline-block;
+}
+
+
+
+@media (max-width:640px) {
+    .content-container{
+        width: 290px;
+    }
+    .indian-container{
+        width: 290px;
+    }
+    .trad-main-info p{
+        width:100%;
+        margin-bottom: 50px;
+    }
+    .trad-main-info{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .trad-main-img{
+        /* width:20px; */
+        margin: 0 auto;
+    }
+    .point-2, .point-3{
+        margin-top: 55px;
+    }
+
+    .points{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+
+
+/* Indian Food */
+
+.indian-food-price {
+    display: flex;
+    align-items: center;
+    
+    background-image: url('../img/content/indian.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.indian-food-container {
+    flex-direction: column;
+    width: 1080px;
+    margin: 90px auto;
+    background-color: rgb(255, 255, 255, .8);
+}
+
+.container-heading-plate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    text-align: center;
+}
+
+.indian-food-price .container-heading-plate {
+    margin: 55px 0;
+}
+
+
+.container-heading-plate h2 {
+    font-size: 77.1px;
+    font-weight: 400;
+    color: #304751;
+    font-family: 'Cookie', cursive, sans-serif;
+}
+
+.container-heading-plate p {
+    font-weight: 600;
+    font-size: 47.6px;
+    color: #ad6c12;
+    text-transform: uppercase;
+}
+
+
+.indian-food-prices {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.food-card {
+    display: flex;
+    min-height: 270px;
+    min-width: 540px;
+}
+
+.food-card-info {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    color: #304751;
+
+}
+
+.food-card-info h3 {
+    text-transform: uppercase;
+    font-size: 18.46px;
+    font-weight: bold;
+}
+
+.food-card-info p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 16.7px;
+}
+
+.food-card-info span {
+    font-size: 16.7px;
+    font-weight: bold;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    width: 167px;
+}
+
+@media (max-width:640px) {
+    .food-card{
+        min-width: 270px;
+        margin-bottom: 40px;
+        background-color: #cecece7a;
+        box-shadow: 1px 1px 10px 0px;
+        padding-bottom: 25px;
+    }
+    .food-card:nth-child(1){   
+        flex-wrap: wrap;
+    }
+    .food-card:nth-child(2){  
+        flex-wrap: wrap;  
+    }
+    .food-card:nth-child(3){
+        flex-wrap: wrap-reverse;
+    }
+    .food-card:nth-child(4){ 
+        flex-wrap: wrap-reverse;
+    }
+    .food-card:nth-child(5){
+        flex-wrap: wrap;
+    }
+    .food-card:nth-child(6){
+        flex-wrap: wrap;
+    }
+    .indian-food-img-wrapper{
+        height: 270px;
+        width: 270px;
+    }
+    .indian-food-img-wrapper img{
+        width: 100%;
+    }
+    
+    .indian-food-container {
+        box-shadow: 1px 1px 10px 0px;
+        margin: 0 auto; 
+        width: 98%;
+    }
+
+    .indian-food-prices{
+        width: 270px;
+        margin: 0 auto;
+    }
+
+
+    .indian-food-img-wrapper{
+        margin: 0 auto;
+    }
+    .indian-food-img-wrapper img{
+        height: 100%;
+    }
+    .food-card-info{
+        padding-top: 30px;
+    }
+}
+
+
+/* Indian Food End*/
+
+
+
+/*+++++++ Made Easy ++++++++  */
+
+.made-easy {
+    
+    border-image: url('../img/content/made-easy/Vector\ Smart\ Object1.jpg');
+    background-color: #d4d8d9;
+    background-repeat: no-repeat;
+}
+
+.back-made-easy {
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.made-easy-info {
+    display: flex;
+    width: 700px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.made-easy-info-list {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    color: #2a3b40;
+}
+
+
+
+.made-easy-info h2 {
+    font-weight: bold;
+    font-size: 29.17px;
+
+
+}
+
+.made-easy-info p {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    font-size: 18.75px;
+
+
+}
+
+.made-easy-point {
+    width: 25px;
+    height: 25px;
+}
+
+.made-easy-link {
+    font-size: 16.67px;
+    font-weight: bold;
+    color: #2a3b40;
+    transition: .4s;
+}
+
+.made-easy-link:hover {
+    text-decoration: line-through;
+    transition: .4s;
+
+}
+
+.made-easy-info-list {
+    margin-top: 45px;
+}
+
+@media (max-width:640px){
+    .f-st,.sec-nd{
+        /* visibility: hidden; */
+        display: none;
+    }
+    .made-easy-info{
+        width: 290px;
+        margin: 0 auto;
+        padding: 50px 0;
+    }
+
+    .made-easy-info-list{
+        width: 100%;
+
+    }
+}
+
+
+
+
+
+/*+++++++ Made Easy End  ++++++++  */
+
+
+/*+++++++ Discover Menu ++++++++  */
+
+.discover-menu {
+    
+    display: flex;
+    background-image: url('../img/content/discover-menu/Dis-wrapper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.discover-menu-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 240px;
+    width: 100%;
+    margin-bottom: 890px;
+    background-color: rgb(255, 255, 255, .8);
+}
+
+.discover-menu-container {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.new-food-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 367px; */
+    /* margin-bottom: 56px; */
+    justify-content: space-between;
+}
+
+.discover-image {
+    width: 81px;
+    /* height: 81px; */
+}
+
+.discover-menu .container-heading-plate {
+    margin: 40px 0;
+}
+
+
+.left-list,
+.right-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.food-box {
+    display: flex;
+    margin-bottom: 65px;
+}
+
+.food-info {
+    color: #2a3b40;
+    width: 315px;
+    margin-left: 8px;
+}
+
+.food-info h3 {
+    font-size: 18.46px;
+    font-weight: bold;
+}
+
+.food-info p {
+    font-size: 16.7px;
+}
+
+.food-info p span {
+    font-size: 16.7px;
+    font-weight: bold;
+}
+
+@media (max-width:640px){
+    .discover-menu-container{
+        width: 290px;
+    }
+    
+    .discover-menu-wrapper{
+        margin-bottom: 0;
+    }
+    .food-info{
+        width: 200px;
+    }
+    .indian-food-container{
+        margin: 30px auto;
+    }
+    .left-list, .right-list{
+        margin: 0 auto;
+    }
+    .food-box{
+        flex-direction: column;
+        background-color: #cecece7a;
+        box-shadow: 1px 1px 10px 0px;
+        padding: 45px 20px;
+    }
+    .discover-image{
+        margin: 0 auto 30px auto;
+        margin-bottom: 30px;
+        
+    }
+    
+    .food-info{
+        margin: 0;
+        text-align: center;
+    }
+    .new-food-card{
+        box-shadow: 1px 1px 10px 0px;
+    }
+    
+
+}
+/*+++++++ Discover Menu End  ++++++++  */
+
+/*+++++++ Book here ++++++++++++*/
+
+.book-here {
+    background-color: #2a3b40;
+}
+
+.set-booking-date {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.set-booking-date-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-book {
+    margin-top: 45px;
+}
+
+.container-book h2 {
+    font-family: 'Cookie', cursive, sans-serif;
+    font-weight: 400;
+    font-size: 77.1px;
+    color: white;
+}
+
+
+
+/* Form  */
+
+.book-here{
+    display: flex;
+    flex-direction: column;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.all-book-forms {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sub-block {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+#btn-sub {
+    margin-top: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .4s;
+}
+
+#btn-sub:hover {
+    background-color: white;
+    border: 1px solid #304751;
+    color: #304751;
+    transition: .4s;
+}
+
+.group-form {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.form select,
+.form input {
+    height: 30px;
+    width: 234px;
+    background-color: transparent;
+    border-radius: 7px;
+    border: 2px solid white;
+    color: white;
+}
+
+.form option {
+    background-color: #304751;
+}
+
+.form input {
+    padding: 0 5px;
+}
+
+.form input,
+.form select,
+.form label {
+    font-size: 16.8px;
+    font-weight: bold;
+}
+
+.form input,
+.form select {
+    margin-top: 10px;
+}
+
+
+.form input::placeholder {
+    color: white;
+}
+
+
+
+.form label {
+    margin-top: 40px;
+}
+
+
+.first {
+    margin-right: 270px;
+}
+
+.second {
+    position: relative;
+    margin-right: 188px;
+}
+
+.second label[for="date"]:after {
+    content: url('../img/content/booking/calendar.png');
+    width: 20px;
+    height: 20px;
+    color: white;
+    position: absolute;
+    top: 74px;
+    right: 10px;
+}
+
+.third {
+    position: relative;
+    margin-right: 80px;
+}
+
+.third label[for="time"]:after {
+    content: url('../img/content/booking/clock-circular-outline.png');
+    width: 20px;
+    height: 20px;
+    color: white;
+    position: absolute;
+    top: 74px;
+    right: 10px;
+}
+
+
+
+/* Form End */
+
+
+
+
+
+
+.back-book-here {
+    background-image: url('../img/content/booking/booking.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 867px;
+}
+
+
+@media (max-width:640px){
+    .set-booking-date{
+        width: 290px;
+
+    }
+    .set-date{
+        width: 100%;
+    }
+    .all-book-forms{
+        flex-wrap: wrap;
+    }
+    .first{
+        margin: 0 auto;
+    }
+    .second{
+        margin: 0 auto;
+    }
+    .third{
+        margin: 0 auto;
+    }
+    .back-book-here{
+        display: none;
+    }
+}
+
+/*+++++++ Book here End ++++++++++++*/
+
+
+
+/* New Menu */
+
+.new-menu {
+    display: flex;
+    background-color: #d4d8d9;
+}
+
+.new-container-bottom {
+    width: 1085px;
+    margin: 0 auto;
+}
+
+.new-menu .container-heading-plate {
+    padding: 55px 0;
+}
+
+.food-position-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 122px;
+}
+
+.new-food-card {
+    width: 340px;
+    height: 500px;
+    background-color: white;
+}
+
+.new-food-card-info {
+    width: 270px;
+    padding-left: 20px;
+}
+
+.new-food-card h5 {
+    margin-top: 25px;
+    margin-bottom: 22px;
+
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.07em‬;
+    color: #555555;
+}
+
+.new-food-card span {
+    font-size: 16.7px;
+    font-weight: bold;
+    color: #4f4e4e;
+}
+
+.new-food-card p {
+    margin-top: 8px;
+    font-size: 16.7px;
+
+    color: #7e7d7d;
+}
+
+.new-food-card .btn-read {
+    margin-top: 24px;
+    position: relative;
+}
+
+.btn-read a {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.07em‬;
+    color: #555555;
+    text-transform: uppercase;
+
+}
+
+.btn-read a:after {
+    content: '';
+    position: absolute;
+    width: 88px;
+    height: 7px;
+    background-color: #ff992b;
+    top: 20px;
+    left: 0;
+    transition: .3s;
+}
+
+.btn-read a:hover:after {
+    background-color: tomato;
+}
+
+
+
+@media (max-width:640px){
+    .new-container-bottom{
+        width: 290px;
+    }
+    .food-position-items{
+        flex-wrap: wrap;
+    }
+    .new-food-card{
+        margin: 15px 0;
+    }
+    .new-food-card:nth-child(3){
+        margin-top: 15;
+        margin-bottom: 0;
+    }
+    .new-food-card-image img {
+        width: 100%;
+    }
+
+}
+
+/* New Menu End */
+
+
+@media (max-width:940px){
+    .f-st,
+    .sec-nd {
+        display: none;
+    }
+    .made-easy-info{
+        margin: 90px auto;
+    }
+}

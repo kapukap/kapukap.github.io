@@ -1,0 +1,288 @@
+/* burger */
+.burger-menu-toggle {
+    position: fixed;
+    height: 0;
+    width: 100%;
+    background-color: indigo;
+    overflow: hidden;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.burger-menu-toggle__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.burger-menu-toggle__exit {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.burger-menu-toggle__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.burger-menu-toggle__box a {
+    color: white;
+    font-size: 36px;
+    transition: .2;
+    -webkit-transition: .2;
+    -moz-transition: .2;
+    -ms-transition: .2;
+    -o-transition: .2;
+}
+
+/* burger END*/
+
+.exit-btn {
+    margin: 25px 25px 0 0;
+}
+
+.burger-menu-toggle__box {
+    margin-top: 100px;
+}
+
+
+.burger-menu-toggle__box li {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.burger-menu-toggle__box a {
+    transition: 1.2s;
+    position: relative;
+    left: 100vw;
+    -webkit-transition: 1.2s;
+    -moz-transition: 1.2s;
+    -ms-transition: 1.2s;
+    -o-transition: 1.2s;
+}
+
+
+
+
+
+
+
+header {
+    display: flex;
+    height: 100vh;
+
+    background-image: url('../img/header/headImg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    overflow: hidden;
+}
+
+
+
+header .header-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 1085px;
+    margin: 0 auto;
+
+}
+
+header .logo,
+.navigation-links {
+    color: white;
+    cursor: pointer;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .3s;
+
+}
+
+
+
+
+.navigation-links:hover {
+
+    text-shadow: 2px 2px 1.5px #ad6c12;
+
+}
+
+header .header-navigation {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 60px;
+
+}
+
+
+
+header .header-navigation .header-menu ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-links {
+    margin-left: 20px;
+
+}
+
+/* -------End Navigation---------- */
+
+
+
+
+header .header-container .header-about {
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12vh 0;
+    width: 760px;
+
+    background-color: rgb(255, 255, 255, .8);
+}
+
+
+
+header .header-about h1 {
+    font-weight: 400;
+    /* padding-top: 120px ; */
+    font-size: 104px;
+    color: #2c3a42;
+    font-family: 'Cookie', cursive, sans-serif;
+}
+
+header .header-about p {
+    color: #ad6c12;
+    font-size: 77px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.read-more-btn {
+
+    padding: 10px 30px;
+    position: relative;
+    color: #2c3a42;
+    text-transform: uppercase;
+    background-color: white;
+    font-size: 38px;
+    font-weight: bold;
+    overflow: hidden;
+
+
+}
+
+
+.read-more-btn:after {
+    content: '';
+    position: absolute;
+    background-color: #2c3a42;
+    width: 151%;
+    height: 135%;
+    top: -41px;
+    left: 420px;
+    transform: rotate(13deg);
+    transition: .5s;
+
+}
+
+.read-more-btn:before {
+    content: '';
+    position: absolute;
+    background-color: #ad6c12;
+    width: 130%;
+    height: 120%;
+    top: 37px;
+    left: -420px;
+    transform: rotate(13deg);
+    transition: .5s;
+}
+
+.read-more-btn:hover {
+    color: white;
+    transition-delay: 0.5s;
+    transition: .3s;
+    z-index: 1;
+
+}
+
+.read-more-btn:hover::after {
+    left: -114px;
+    z-index: -1;
+}
+
+.read-more-btn:hover::before {
+    left: -135px;
+    z-index: -1;
+}
+
+
+
+
+/* Media  */
+
+@media (max-width: 640px) {
+
+    header .header-container {
+        width: 290px;
+    }
+
+    header .header-menu {
+        display: none;
+    }
+
+    header .header-container .header-about {
+        width: 290px;
+        padding: 50px 0;
+    }
+
+    header .header-about h1 {
+        font-size: 62px;
+    }
+
+    header .header-about p {
+        font-size: 32px;
+    }
+
+    header .header-about a {
+        font-size: 18px;
+    }
+
+    .toggle-menu img {
+        display: block;
+    }
+
+    .read-more-btn:hover::after {
+        left: -56px;
+        z-index: -1;
+        top: -20px;
+    }
+
+    .read-more-btn:hover::before {
+        left: -37px;
+        z-index: -1;
+    }
+}
+
+@media (min-width: 601px) {
+    .toggle-menu {
+        display: none;
+    }
+}
+
+/* End Media  */
