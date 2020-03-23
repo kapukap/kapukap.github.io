@@ -5,19 +5,18 @@
 }
 
 body{
-    /*background-color: darkorchid;*/
     background-color: #7140E1;
 }
 
 header{
     color: white;
-    font-size: 26px;
+    font-size: 31px;
     margin-top: 80px;
 }
 
 a{
     text-decoration: none;
-    /*color: darkorchid;*/
+    font-size: 26px;
     color: #6F1191;
 }
 
@@ -62,6 +61,18 @@ section{
 }
 
 @media (max-width:600px) {
+    .h-wrapper{
+        flex-direction: column;
+    }
+    header img{
+        width: 80px;
+    }
+    header p{
+        font-size: 46px;
+    }
+    a{
+        font-size: 36px;
+    }
     .pr-wrapper{
         width: 400px;
     }
@@ -71,10 +82,29 @@ section{
     .pr-wrapper{
         width: 568px;
     }
+    header img{
+        width: 70px;
+    }
+    header p{
+        font-size: 41px;
+    }
+    a{
+        font-size: 31px;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
     .pr-wrapper{
         width: 792px;
+    }
+    header img{
+        width: 65px;
+    }
+    header p{
+        font-size: 31px;
+    }
+    a{
+        font-size: 31px;
     }
 }
