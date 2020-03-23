@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 60px;
+    background-color: #383d3b;
+}
+.h-wrapper{
+    width: calc(100% - 36px);
+    height: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
