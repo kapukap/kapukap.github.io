@@ -21,7 +21,7 @@ a{
 }
 
 .h-wrapper{
-    width: 450px;
+    width: 100vw;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -34,6 +34,7 @@ a{
 
 
 section{
+    width: 100vw;
     margin-top: 45px;
 }
 
@@ -60,10 +61,11 @@ section{
     background-color: #BFA130;
 }
 
-@media (max-width:600px) {
+@media screen and (max-width: 600px) {
     .h-wrapper{
         flex-direction: column;
     }
+
     header img{
         width: 80px;
     }
@@ -73,12 +75,14 @@ section{
     a{
         font-size: 36px;
     }
+
     .pr-wrapper{
-        width: 400px;
+        margin: 0 auto;
+        width: 300px;
     }
 }
 
-@media (min-width: 600px) and (max-width: 768px) {
+@media (min-width:640px) and (max-width: 768px) {
     .pr-wrapper{
         width: 568px;
     }
@@ -88,7 +92,7 @@ section{
     header p{
         font-size: 41px;
     }
-    a{
+    .pr-wrapper a{
         font-size: 31px;
     }
 
@@ -96,7 +100,7 @@ section{
 
 @media (min-width: 768px) and (max-width: 992px) {
     .pr-wrapper{
-        width: 792px;
+        width: 600px;
     }
     header img{
         width: 65px;
@@ -104,7 +108,7 @@ section{
     header p{
         font-size: 31px;
     }
-    a{
+    .pr-wrapper a{
         font-size: 31px;
     }
 }
