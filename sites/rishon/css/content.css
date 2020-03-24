@@ -3,10 +3,7 @@ section{
 }
 
 .c-wrapper{
-    /*width: 326px;*/
-    /*width: 350px;*/
     width: calc(100% - 32px);
-    /*width: 465px;*/
     margin: 0 auto;
 
 }
@@ -20,7 +17,6 @@ section{
 
 .c-margin h1{
     font-weight: 100;
-    /*font-size: 26px;*/
     line-height: 39px;
 }
 
@@ -73,6 +69,7 @@ section{
     display: flex;
     align-items: center;
 }
+
 .c-heart-wrapper a:visited{
     color: black;
 }
@@ -81,3 +78,87 @@ section{
 .c-heart p{
     margin: 10px;
 }
+
+
+
+
+/*==============  2-d Section  ===============*/
+
+
+.second-wrap{
+    width: 360px;
+    margin: 0 auto;
+}
+
+.second-sect span{
+    position: relative;
+    color: #2D9C4A;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+
+}
+
+.second-sect span:after{
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 2px;
+    background-color: #2D9C4A;
+    top: 7px;
+    left: 135px;
+
+}
+
+.second-sect h2{
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 39px;
+}
+
+.second-sect p{
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+
+.second-wrap button{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: white;
+    padding: 20px 100px;
+    border-radius: 30px;
+    background-color: #2D9C4A;
+    border: 1px solid white;
+}
+
+.advantages{
+
+}
+
+.advantages img{
+    background-color: transparent;
+}
+.advantages h3{
+    background-color: transparent;
+}
+.advantages p{
+    background-color: transparent;
+}
+
+
+.list-view{
+    margin: 10px auto;
+    width: 230px;
+    height: 230px;
+    background: #FFFFFF;
+    box-shadow: -10px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+/*==============  END 2-d Section  ===============*/
