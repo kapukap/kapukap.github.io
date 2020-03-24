@@ -1,14 +1,56 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+
 }
 header{
     height: 60px;
     background-color: #383d3b;
 }
+a{
+    text-decoration: none;
+}
 .h-wrapper{
     width: calc(100% - 36px);
     height: 100%;
     margin: 0 auto;
+    /*background-color: white;*/
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    /*width: 132px;*/
+    width: 150px;
+    align-items: center;
+}
+
+.i-logo{
+    width: 40px;
+    height: 40px;
+}
+
+.mg-logo{
+    color: white;
+    margin-left: 12px;
+}
+
+.menu-toggle{
+
+}
+
+span{
+    width: 33px;
+    height: 2.7px;
     background-color: white;
 }
+
+/*span svg{*/
+/*    margin-bottom: 7.5px;*/
+/*}*/
+
+
+
+
+

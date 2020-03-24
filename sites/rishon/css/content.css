@@ -1,0 +1,83 @@
+section{
+    font-style: normal;
+}
+
+.c-wrapper{
+    /*width: 326px;*/
+    /*width: 350px;*/
+    width: calc(100% - 32px);
+    /*width: 465px;*/
+    margin: 0 auto;
+
+}
+.c-margin{
+    margin-top: 32px;
+
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.c-margin h1{
+    font-weight: 100;
+    /*font-size: 26px;*/
+    line-height: 39px;
+}
+
+.c-human-rishon{
+    display: flex;
+    margin-top: 9px;
+    justify-content: center;
+}
+
+.c-paragraph{
+    margin: 22px;
+}
+
+.c-paragraph p{
+    width: 327px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.c-paragraph span{
+    font-weight: bold;
+    position: relative;
+}
+
+.c-paragraph span:before{
+    position: absolute;
+    /*left: 120px;*/
+    top: 20px;
+    content: '';
+    width: 127px;
+    height: 2px;
+    background: #2D9C4A;
+
+}
+
+.c-paragraph span:nth-child(2):before{
+    width: 95px;
+}
+
+
+.c-heart-wrapper{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.c-heart{
+    display: flex;
+    align-items: center;
+}
+.c-heart-wrapper a:visited{
+    color: black;
+}
+
+
+.c-heart p{
+    margin: 10px;
+}
