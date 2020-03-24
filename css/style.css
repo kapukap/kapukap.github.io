@@ -82,7 +82,7 @@ section{
     }
 }
 
-@media (min-width:640px) and (max-width: 768px) {
+@media (min-width:600px) and (max-width: 768px) {
     .pr-wrapper{
         width: 568px;
     }
