@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 50px;
+    height: 48px;
+    border: 1px solid black;
+}
+
+.row:nth-child(2n+1) > .cell:nth-child(2n+1), .row:nth-child(2n) > .cell:nth-child(2n) {
+    background-color: black;
+}
