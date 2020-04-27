@@ -4,8 +4,8 @@
 }
 
 body{
-    height: 100vh;
     display: flex;
+    height: 100vh;
     justify-content: center;
     align-items: center;
 }
@@ -16,6 +16,7 @@ body{
     width: 400px;
     height: 400px;
     border: 1px solid black;
+    /*margin: 0 auto;*/
 }
 
 .row {
