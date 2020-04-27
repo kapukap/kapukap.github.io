@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed11452-8fcf-45e0-9a56-d9a87237d08f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/Chess/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/sites/Chess/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/kapukap.github.io-master" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -54,7 +54,8 @@
       <updated>1584977748562</updated>
       <workItem from="1584977749999" duration="3435000" />
       <workItem from="1587990142037" duration="29000" />
-      <workItem from="1587991587127" duration="148000" />
+      <workItem from="1587991587127" duration="1809000" />
+      <workItem from="1587993525136" duration="7000" />
     </task>
     <servers />
   </component>
@@ -66,5 +67,9 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="536" y="207" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834/1920.0.1440.870@0.0.1536.834" timestamp="1584977812626" />
+    <state x="363" y="119" key="FileChooserDialogImpl" timestamp="1587993529999">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="363" y="119" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1587993529999" />
   </component>
 </project>
