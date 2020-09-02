@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles/main.min.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="wrapper">
+        <div class="header__container">
+            <div class="header__info">
+                <div class="header__title">
+                    <h1 class="title__text">Rick and Morty</h1>
+                </div>
+                <div class="header__link">
+                    <a href="https://github.com/kapukap" class="link__image" target="_blank">
+                            <img src="img/github-logo.png" alt="#">
+                    </a>
+                </div>
+            </div>
+
+            <div class="header__video">
+                <iframe width="560" height="320" src="https://www.youtube.com/embed/hl1U0bxTHbY?autoplay=1" allow="autoplay" frameborder="0"></iframe>
+            </div>
+        </div>
+
+    </div>
+
+
+</header>
+
+<div class="content">
+    <div class="wrapper">
+        <div class="content__image">
+            <img src="../img/logo.png" alt="">
+        </div>
+
+        <div class="content__info">
+            <div class="content__prologue">The series follows the misadventures of cynical mad scientist Rick Sanchez
+                and
+                his
+                good-hearted but fretful grandson Morty Smith, who split their time between domestic life and
+                interdimensional adventures.
+            </div>
+        </div>
+
+
+        <div class="content__bar">
+            <div class="content__category">
+                <div class="content__button">
+                    <button class="button__category active">Characters</button>
+                </div>
+                <div class="content__button">
+                    <button class="button__category">Locations</button>
+                </div>
+                <div class="content__button">
+                    <button class="button__category">Episodes</button>
+                </div>
+            </div>
+
+            <div class="search">
+                <div class="search-box">
+                    <input class="search__input" type="text" placeholder="Type to search">
+                    <button class="search__button">
+                        <img src="../img/search.png" alt="">
+                    </button>
+                </div>
+                <div class="search-status">
+                    <select name="status" id="status" class="search__select">
+                        <option value="" class="search__option">--</option>
+                        <option value="Alive" class="search__option">Alive</option>
+                        <option value="Dead" class="search__option">Dead</option>
+                        <option value="unknown" class="search__option">unknown</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="content__container"></div>
+
+        <div class="content__buttons">
+            <div class="content__control">
+                <button class="button__category" id="prev-btn">Prev</button>
+            </div>
+            <ul class="content__list">
+                <li class="content__item">
+                    <button class="button__category" id="current-page"></button>
+                </li>
+                <li class="content__item">
+                    <span>...</span>
+                </li>
+                <li class="content__item">
+                    <button class="button__category" id="all-pages"></button>
+                </li>
+            </ul>
+            <div class="content__control">
+                <button class="button__category" id="next-btn">Next</button>
+            </div>
+        </div>
+
+
+        <div class="content__subscribe">
+            <div class="content__news-letter">
+    <hr class="thick">
+    <h2>📫 The Newsletter</h2>
+    <div class="content__form-wrap">
+        <form class="content__form" action="" method="post">
+            <label for="mail"></label>
+            <input class="content__email" type="email" name="" id="mail" placeholder="Your email address" required>
+            <input class="content__button" type="submit" value="Subscribe">
+        </form>
+    </div>
+</div>
+        </div>
+
+
+        <template>
+    <div class="content__card">
+        <div class="card__image">
+            <img class="image" src="" alt="">
+        </div>
+        <div class="card__info">
+            <div class="card__name"></div>
+            <div class="card__status"></div>
+            <div class="card__species"></div>
+            <div class="card__gender"></div>
+            <div class="card__location"></div>
+        </div>
+    </div>
+</template>
+    </div>
+
+
+</div>
+<footer class="footer">
+    <div class="wrapper">
+        <div class="footer__container">
+            <div class="footer__roots">
+
+                <p><span>©</span> 2020 kapukap Inc. All Rights Reserved</p>
+            </div>
+                <ul class="footer__social">
+                    <li class="footer__item">
+                        <a href="" class="footer__link">
+                            <img src="img/footer/instagram.png" alt="" class="">
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="" class="footer__link">
+                            <img src="img/footer/facebook.png" alt="" class="">
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="" class="footer__link">
+                            <img src="img/footer/twitter.png" alt="" class="">
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="" class="footer__link">
+                            <img src="img/footer/vk.png" alt="" class="">
+                        </a>
+                    </li>
+                </ul>
+        </div>
+    </div>
+</footer>
+
+
+<script src="scripts/main.js"></script>
+</body>
+</html>
