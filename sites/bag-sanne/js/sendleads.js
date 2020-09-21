@@ -66,12 +66,13 @@
         fetch(`https://api.monsterleads.pro/method/order.add?api_key=${API_KEY}&tel=${getPhone()}&code=${CODE}&traffic_type=${getDevice()}&ip=${ip.code}&client=${getName()}&format=json&utm_source=${getSubid().utm_source}&utm_medium=${getSubid().utm_medium}&utm_campaign=${getSubid().utm_campaign}`)
             .then(response => {return response.json()})
             .then( data => {
-                if(data.status === 'error'){
-                    window.location.replace("https://bbbbbooot.000webhostapp.com/html/error.html");
-                }else{
-                    alert('Good')
-                    window.location.replace("https://bbbbbooot.000webhostapp.com/html/sendleads.html");
-                }
+                console.log(data);
+                // if(data.status === 'error'){
+                    // window.location.replace("https://bbbbbooot.000webhostapp.com/html/error.html");
+                // }else{
+                    // alert('Good')
+                    // window.location.replace("https://bbbbbooot.000webhostapp.com/html/sendleads.html");
+                // }
             } )
 
         // let request = new XMLHttpRequest();
