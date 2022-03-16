@@ -1,26 +1,26 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Cookie', cursive, sans-serif;
 }
 
-body{
+body {
     background-color: #7140E1;
 }
 
-header{
+header {
     color: white;
     font-size: 31px;
     margin-top: 80px;
 }
 
-a{
+a {
     text-decoration: none;
     font-size: 26px;
     color: #6F1191;
 }
 
-.h-wrapper{
+.h-wrapper {
     width: 100vw;
     margin: 0 auto;
     display: flex;
@@ -28,18 +28,18 @@ a{
     justify-content: center;
 }
 
-.h-wrapper p{
+.h-wrapper p {
     margin-left: 25px;
 }
 
 
-section{
+section {
     width: 100vw;
     margin-top: 45px;
 }
 
 
-.pr-wrapper{
+.pr-wrapper {
     width: 900px;
     margin: 0 auto;
     display: flex;
@@ -48,8 +48,8 @@ section{
 }
 
 
-
-.button{
+.button {
+    text-align: center;
     background-color: #ffc800;
     padding: 5px 15px;
     border-radius: 10px;
@@ -57,58 +57,66 @@ section{
     transition: .3s;
 }
 
-.button:hover{
+.button:hover {
     background-color: #BFA130;
 }
 
 @media screen and (max-width: 600px) {
-    .h-wrapper{
+    .h-wrapper {
         flex-direction: column;
     }
 
-    header img{
+    header img {
         width: 80px;
     }
-    header p{
+
+    header p {
         font-size: 46px;
     }
-    a{
+
+    a {
         font-size: 36px;
     }
 
-    .pr-wrapper{
+    .pr-wrapper {
         margin: 0 auto;
         width: 300px;
     }
 }
 
-@media (min-width:600px) and (max-width: 768px) {
-    .pr-wrapper{
+@media (min-width: 600px) and (max-width: 768px) {
+    .pr-wrapper {
         width: 568px;
     }
-    header img{
+
+    header img {
         width: 70px;
     }
-    header p{
+
+    header p {
         font-size: 41px;
     }
-    .pr-wrapper a{
+
+    .pr-wrapper a {
         font-size: 31px;
     }
 
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-    .pr-wrapper{
+    .pr-wrapper {
         width: 600px;
     }
-    header img{
+
+    header img {
         width: 65px;
     }
-    header p{
+
+    header p {
         font-size: 31px;
     }
-    .pr-wrapper a{
+
+    .pr-wrapper a {
         font-size: 31px;
     }
 }
