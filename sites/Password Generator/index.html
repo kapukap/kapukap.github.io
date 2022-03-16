@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/checkbox.css">
+</head>
+<body class="page">
+<section class="content">
+    <div class="password">
+        <label>
+            <input class="password__input" type="text" id="password" placeholder="Your password">
+        </label>
+        <button class="copy">
+            <img class="copy__img filter" src="img/copy.svg" alt="copy">
+        </button>
+        <button class="refresh">
+            <img class="refresh__img filter" src="img/rotate.svg" alt="refresh">
+        </button>
+    </div>
+    <div class="settings">
+        <div style="display: flex; justify-content: center;">
+            <label style="visibility: hidden;" for="range"></label>
+            <input class="range" type="range" id="range" name="range" min="8" max="32" value="8">
+            <span class="chars points" style="margin-left: 1em;"></span>
+        </div>
+        <menu class="menu options">
+            <li>
+                <label class="check option">
+                    <input class="check__input apple-switch" type="checkbox" data-type="symbols">
+                    Add symbols <span
+                        class="chars mono"> ! " # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \ ] ^ _` { | } ~</span>
+                </label>
+            </li>
+            <li>
+                <label class="check option">
+                    <input class="check__input apple-switch" type="checkbox" data-type="numbers">
+                    Add numbers
+                </label>
+            </li>
+            <li>
+                <label class="check option">
+                    <input class="check__input apple-switch" type="checkbox" data-type="register">
+                    Add upper register
+                </label>
+            </li>
+        </menu>
+    </div>
+</section>
+<script src="scripts/script.js"></script>
+</body>
+</html>

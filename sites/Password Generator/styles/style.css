@@ -1,0 +1,142 @@
+.page {
+    background-color: #f7fbfc;
+    font-family: Mallanna, sans-serif;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(50%);
+}
+
+.options {
+
+}
+
+.options label {
+    color: #769fcd
+}
+
+.option {
+    margin-bottom: 0.3em;
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+}
+
+.mono, .points {
+    font-family: Monospaced, sans-serif;
+    font-weight: bold;
+    color: #769fcd;
+}
+
+.mono {
+    font-size: .9em;
+}
+
+.points {
+    font-size: 1.1em;
+}
+
+.range {
+    width: 500px;
+}
+
+.settings {
+    margin-top: 35px;
+}
+
+.menu {
+    padding: 0;
+    width: 600px;
+    margin: 25px auto 0;
+    list-style: none;
+}
+
+.chars {
+    background-color: #d6e6f2;
+    border-radius: 7px;
+    padding: 0 10px;
+}
+
+/* Check */
+.check {
+    padding-left: 1.2em;
+}
+
+.check__input {
+    position: absolute;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-right: 25px;
+}
+
+/* Password */
+.password {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 34px;
+}
+
+.password__input {
+    color: #769fcd;
+    outline: none;
+    font-size: 36px;
+    border: 0;
+    padding-left: 44px;
+    padding-right: 108px;
+}
+
+.copy, .refresh {
+    position: absolute;
+    transform: translateY(35%);
+    width: 35px;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.copy {
+    right: 90px;
+}
+
+.active:before {
+    position: absolute;
+    content: 'Copied!';
+    background-color: #7f7f7f;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    top: -35px;
+    left: -15px;
+    z-index: 5;
+    opacity: 1;
+}
+
+.active:after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 15px solid #7f7f7f;
+    top: -18px;
+    left: 10px;
+    opacity: 1;
+}
+
+.refresh {
+    right: 50px;
+}
+
+.filter {
+    filter: invert(100%) sepia(14%) saturate(5232%) hue-rotate(171deg) brightness(100%) contrast(90%);
+}
+
+.filter:hover {
+    filter: invert(59%) sepia(45%) saturate(362%) hue-rotate(171deg) brightness(95%) contrast(85%);
+}
