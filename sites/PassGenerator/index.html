@@ -21,17 +21,26 @@
     </div>
     <div class="settings">
         <div style="display: flex; justify-content: center;">
-            <label style="visibility: hidden;" for="range"></label>
-            <input class="range" type="range" id="range" name="range" min="8" max="32" value="8">
-            <span class="chars points" style="margin-left: 1em;"></span>
+            <label>
+                <input class="range" type="range" id="range" name="range" min="8" max="32" value="8">
+            </label>
+            <span class="chars points"></span>
         </div>
         <menu class="menu options">
             <li>
-                <label class="check option">
+                <label class="check option symbols">
                     <input class="check__input apple-switch" type="checkbox" data-type="symbols">
                     Add symbols <span
                         class="chars mono"> ! " # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \ ] ^ _` { | } ~</span>
                 </label>
+<!--                <label class="check option">-->
+<!--                    <div style="display: flex;align-items: center;">-->
+<!--                        <input class="check__input apple-switch" type="checkbox" data-type="symbols">-->
+<!--                        Add symbols-->
+<!--                    </div>-->
+<!--                    <span-->
+<!--                            class="chars mono symbols"> ! " # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \ ] ^ _` { | } ~</span>-->
+<!--                </label>-->
             </li>
             <li>
                 <label class="check option">

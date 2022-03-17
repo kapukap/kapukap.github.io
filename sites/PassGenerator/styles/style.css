@@ -33,6 +33,8 @@
 
 .mono {
     font-size: .9em;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .points {
@@ -57,7 +59,9 @@
 .chars {
     background-color: #d6e6f2;
     border-radius: 7px;
-    padding: 0 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 1em;
 }
 
 /* Check */
@@ -140,4 +144,40 @@
 
 .filter:hover {
     filter: invert(59%) sepia(45%) saturate(362%) hue-rotate(171deg) brightness(95%) contrast(85%);
+}
+
+.symbols {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+    .password {
+        padding: 0;
+    }
+
+    .password__input {
+        width: 280px;
+        padding-right: 95px;
+    }
+
+    .copy {
+        right: 55px;
+    }
+
+    .refresh {
+        right: 15px;
+    }
+
+    .range {
+        width: 365px;
+    }
+
+    .menu {
+        width: 450px;
+    }
+
+    .mono {
+        margin: 15px auto;
+    }
 }
